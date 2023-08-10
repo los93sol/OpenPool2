@@ -70,7 +70,7 @@ The Azure Kinect DK must be as close as possible to the exact center of the tabl
 - Set display resolution (Recommend: 1080P at 60Hz or 120Hz)
 - Download and install the [Azure Kinect SDK](https://download.microsoft.com/download/3/d/6/3d6d9e99-a251-4cf3-8c6a-8e108e960b4b/Azure%20Kinect%20SDK%201.4.1.exe)
 - Download and install the [Azure Kinect Firmware](https://download.microsoft.com/download/3/d/6/3d6d9e99-a251-4cf3-8c6a-8e108e960b4b/AzureKinectDK_Fw_1.6.110079014.bin) ([Docs](https://learn.microsoft.com/en-us/azure/kinect-dk/azure-kinect-firmware-tool))
-- Download the latest OpenPool release (TODO: Link)
+- Download the latest [OpenPool](https://github.com/los93sol/OpenPool2/releases) release
 
 **Recommended**
 - Configure Mini PC to boot after power loss
