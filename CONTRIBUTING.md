@@ -18,5 +18,5 @@ RDP works fine when you don't need to be projecting for debugging.
 On the first build you need to publish the NugetBridge project, it will output to OpenPool2/Assets/Plugins.
 - Open a terminal window to the directory where you cloned the repo to
 - dotnet publish NugetBridge -p:PublishProfile=UnityPrep
-
-  
+- Open the OpenPool2 directory in Unity
+- File > Build and Run
