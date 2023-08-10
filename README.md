@@ -4,8 +4,6 @@ ___
 ## Table of Contents
 - [Hardware](#hardware)
   - [Billiards Table](#billiards-table)
-    - [Size](#size)
-    - [Cloth Color](#cloth-color)
   - [Projector](#projector)
   - [Mini PC](#mini-pc)
   - [Azure Kinect DK](#azure-kinect-dk)
@@ -14,14 +12,8 @@ ___
 
 ## Hardware
 ### Billiards Table
-#### Size
-The size of the table will determine how much distance you need between the lens of the Azure Kinect and the table top.
-**7ft Table:** 4.5ft  
-**8ft Table:** 5.25ft  
-**9ft Table:** 6ft
-
-#### Cloth Color
-Gray or gold cloth is recommended for the best experience.
+**Size:** 7-9ft  
+**Cloth Color:** Gray or gold cloth is recommended for the best experience.
 
 ### Projector
 **Recommended:** [UHD35STx](https://www.amazon.com/dp/B09XVNJNXT?ref=ppx_yo2ov_dt_b_product_details&th=1)  
@@ -33,6 +25,8 @@ You'll need to attach the projector vertically onto the ceiling.  I used [this](
 - Throw Ratio
 - Brightness
 - Latency
+- Lens Offset
+- Zoom
 
 ### Mini PC
 **Recommended:** [KAMRUI CK10](https://www.amazon.com/dp/B0B4J68GHM?ref=ppx_yo2ov_dt_b_product_details&th=1)
@@ -56,4 +50,17 @@ You'll need to mount the camera as well.  I used [this](https://www.amazon.com/d
 
 ## Installation
 ### Physical
-TODO
+**Projector**  
+The projector should be mounted from the ceiling near the edge of the table due to the lens offset.  Calculate how high it needs to be from the table bed using it's throw distance and your table size.  The projected image should cover to the outside edges of the cloth on the rails.
+
+**Mini PC**  
+The Mini PC should be relatively close to the Azure Kinect DK to keep the USB cable as short as possible.
+
+**Azure Kinect DK**  
+The Azure Kinect DK must be as close as possible to the exact center of the table and pointing directly at the center of the table.  The size of the table will determine how much distance you need between the lens of the Azure Kinect and the table top.  
+**7ft Table:** 4.5ft  
+**8ft Table:** 5.25ft  
+**9ft Table:** 6ft
+
+**My Setup**  
+<img src="Images/FullSetup.jpeg" width="50%"/><img src="Images/CameraAndMiniPC.jpeg" width="50%"/>
